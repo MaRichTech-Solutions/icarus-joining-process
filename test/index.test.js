@@ -46,7 +46,7 @@ describe('Icarus Joining Process Tests', () => {
             const res = await chai.request(app)
                 .put('/fix-joining-process');
 
-            expect(res).to.have.status(200);
+            expect(res).to.have.status(20);
             expect(res.body).to.have.property('message', 'Joining process fixed successfully.');
         });
     });
