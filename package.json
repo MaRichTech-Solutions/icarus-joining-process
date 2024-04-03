@@ -1,0 +1,32 @@
+{
+  "name": "icarus-joining-process",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaRichTech-Solutions/icarus-joining-process.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaRichTech-Solutions/icarus-joining-process/issues"
+  },
+  "homepage": "https://github.com/MaRichTech-Solutions/icarus-joining-process#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4",
+    "save-dev": "^0.0.1-security",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  }
+}
